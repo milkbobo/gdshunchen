@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <meta name=description content="">
+
+    <!-- CSS -->
+    <link href="{dede:global.cfg_templets_skin/}/css/preload.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/slidebars.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="{dede:global.cfg_templets_skin/}/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="{dede:global.cfg_templets_skin/}/css/syntaxhighlighter/shCore.css" rel="stylesheet"  media="screen">
+
+    <link href="{dede:global.cfg_templets_skin/}/css/style-blue.css" rel="stylesheet" media="screen" title="default">
+    <link href="{dede:global.cfg_templets_skin/}/css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <link href="{dede:global.cfg_templets_skin/}/css/buttons.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="../{dede:global.cfg_templets_skin/}/js/html5shiv.min.js"></script>
+        <script src="../{dede:global.cfg_templets_skin/}/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="sb-site">
+    <div class="boxed">
+      {dede:include filename="head.htm"/}
+
+        <header class="main-header">
+            <div class="container">
+                <h1 class="page-title">{dede:field.typename/}</h1>
+
+                <ol class="breadcrumb pull-right">
+                   {dede:field name='position'/}
+                </ol>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <section>
+                        <h2 class="page-header no-margin-top">{dede:field.title/}</h2>
+                       {dede:field.body/}
+                    </section>
+                    <section>
+                        
+                    </section><!-- comment-form -->
+                </div>
+            </div>
+        </div> <!-- container  -->
+
+        <aside id="footer-widgets">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">联系我们</h3>
+                                <div class="media">
+
+                                    <div class="media-body">
+{dede:include filename="footer.htm"/}
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- container -->
+            </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+                <p>技术提供：<a href="http://www.weiyd.com.cn">微易点</a></p>
+            </footer>
+        
+    </div> <!-- boxed -->
+    </div> 
+
+   
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Scripts -->
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery-1.11.1.min.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.cookie.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/wow.min.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/slidebars.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.bxslider.min.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/holder.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/buttons.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/styleswitcher.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.mixitup.min.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/circles.min.js"></script>
+    
+    <!-- Syntaxhighlighter -->
+    <script src="{dede:global.cfg_templets_skin/}/js/syntaxhighlighter/shCore.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/syntaxhighlighter/shBrushXml.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/syntaxhighlighter/shBrushJScript.js"></script>
+
+    <script src="{dede:global.cfg_templets_skin/}/js/app.js"></script>
+</body>
+
+</html>
